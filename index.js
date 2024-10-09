@@ -63,7 +63,7 @@ const temperaturesFehrenheit = temperatures.map(
 const temperatureLabels = temperatures.map(function (temperature) {
   if (temperature >= 25) return "Warm";
   if (temperature >= 20) return "Mild";
-  else return "Cood";
+  else return "Cool";
 });
 
 /*****************************************************************
